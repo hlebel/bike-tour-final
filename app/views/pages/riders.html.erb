@@ -1,0 +1,32 @@
+
+<div class="riders">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">first_name</th>
+      <th scope="col">last_name</th>
+      <th scope="col">city_of_origin</th>
+      <th scope="col">state_of_origin</th>
+      <th scope="col">placeholder</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @riders.each do |riders| %>
+  <tr>
+      <td><%= riders.id %></td>
+      <td><%= riders.first_name %></td>
+      <td><%= riders.last_name %></td>
+      <td><%= riders.city_of_origin %></td>
+      <td><%= riders.state_of_origin %></td>
+      <td><%= riders.location %></td>
+
+
+    </tr>
+
+    <% end %>
+
+  </tbody>
+</table>
+</div>
+
