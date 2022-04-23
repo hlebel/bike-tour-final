@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+ #root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    grid-gap: 10px;
+  }
+  
+  
+  #root img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+  }
+
+  
+    .coming-soon{
+    
+      border-radius:10px;
+        background: 
+ 
+    url(/assets/hero-58bfb2f49005f68b54a1e137853a50dd0b4389fe58d4b137b9ea69a05ae78e90.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    height:300px;
+    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    h2 {
+      font-size: 5rem;
+      font-weight: bold;
+      padding: 3rem;
+    }
+
+    .coming-soon {
+      color: black;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .countdown {
+      text-align: center;
+      color: black;
+     display: flex;
+     justify-content: space-around;
+    }
+
+    .month,.day,.hour,.minute,.second{
+      color: black;
+      font-size: 3rem;
+    }
+
+    .container-month {
+      margin-right: 3rem;
+
+    }
+    .container-day {
+      margin-right: 3rem;
+    }
+    .container-hour {
+      margin-right: 3rem;
+    }
+    .container-minute {
+      margin-right: 3rem;
+    }
+    .container-second {
+      margin-right: 3rem;
+
+    }
+    
+
+
+
+
+  
