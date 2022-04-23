@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_04_07_174235) do
-
+  # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "riders", force: :cascade do |t|
@@ -20,15 +20,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_07_174235) do
     t.text "city_of_origin"
     t.text "state_of_origin"
     t.text "location"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "s_logans", force: :cascade do |t|
-    t.text "first_name"
-    t.text "last_name"
-    t.text "email"
-    t.text "suggestion"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

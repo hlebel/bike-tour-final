@@ -9,9 +9,9 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
   host: ec2-52-18-116-67.eu-west-1.compute.amazonaws.com
-  database: d7tpf2064r7sfi
-  user: hkigokicekroiv
-  password: 7ae6f73a2d61543a724172f558d2062c516f7d6303fdaee32f03b02114987fba
+  database: dav3p86g54t0ga
+  user: ftkyxvhnjciflq
+  password: 27691547329b851cc1cb8d901fb5a59f8195e4a9d876532b978545f1de6b3e95
 
 development:
   <<: *default
