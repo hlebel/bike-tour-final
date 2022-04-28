@@ -1,7 +1,7 @@
 const root = document.querySelector("#root");
 const loader = document.querySelector("#loader");
 
-if (root) {
+if (window.location.pathname === "/gallery") {
   const FLICKR_API_KEY = "f71a0d235c15d5af6b9034530a160c9b";
 
   let page = 1;

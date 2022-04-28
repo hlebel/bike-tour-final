@@ -26,14 +26,14 @@
     height: 250px;
   }
 
-  .coming-soon{    
+  /* .coming-soon{    
     border-radius:10px;
     background:  
-    url(hero.jpeg);
+    url(../images/hero.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;   
     height:300px;
-    }
+    } */
 
   * {
      margin: 0;
@@ -52,27 +52,16 @@
     }
 
 
-    .coming-soon { 
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      color:white;
+   
 
-    }
-
-    .countdown {
+    /* .countdown {
      text-align: center;
      color:rgb(143, 12, 12);
      display: flex;
      justify-content: space-around;
-    }
+    } */
 
-    .month,.day,.hour,.minute,.second{
-      color: white;
-      font-size: 3rem;
-    }
+   
 
     .container-month {
       margin-right: 3rem;

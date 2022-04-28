@@ -1,4 +1,5 @@
 // Initialize and add the map
+
 async function initMap() {
   const mapElm = document.getElementById("map");
   // The location of Uluru
